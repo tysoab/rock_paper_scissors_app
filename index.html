@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SCISSOR GAME</title>
+    <script
+      src="https://kit.fontawesome.com/dad8ebce2d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ROCK PAPER SCISSORS GAME</h1>
+
+      <div class="btn-container">
+        <button class="btn-pick">
+          <i class="fa-solid fa-hand-back-fist" data-pick="rock"></i>
+        </button>
+        <button class="btn-pick">
+          <i class="fa-solid fa-hand" data-pick="paper"></i>
+        </button>
+        <button class="btn-pick">
+          <i class="fa-solid fa-hand-scissors" data-pick="scissors"></i>
+        </button>
+      </div>
+
+      <div class="result-el">
+        <p id="result"></p>
+      </div>
+
+      <div class="result-details">
+        <span>Your pick:</span>
+        <span class="pick" id="user-pick"></span>
+        <span>-</span>
+        <span class="pick" id="computer-pick"></span>
+        <span>Computer</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
